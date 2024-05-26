@@ -270,7 +270,7 @@ export function tokensToParser(
                 // do not append a slash on the next iteration
                 else avoidDuplicatedSlash = true
               }
-            } else throw new Error(`Missing required param "${value}"`)
+            } else console.log(`Missing required param "${value}"`)
           }
           path += text
         }
